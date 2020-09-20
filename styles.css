@@ -35,6 +35,10 @@ html {
     display: flex;
     justify-content: center;
 }
+.castle-header-and-text {
+    margin-top: 220px;
+    padding-left: 300px;
+}
 }
 
 .castle-first-row {
@@ -48,4 +52,8 @@ html {
   -o-background-size: cover;
   background-size: cover;
   margin-top: 70px;
+}
+
+.castle-side-image-one {
+    max-height: 600px;
 }
