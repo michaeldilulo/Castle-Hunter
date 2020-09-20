@@ -39,6 +39,11 @@ html {
     margin-top: 220px;
     padding-left: 300px;
 }
+.castle-card-one-review {
+    display: flex;
+    justify-content: flex-end;
+}
+
 }
 
 .castle-first-row {
@@ -55,5 +60,14 @@ html {
 }
 
 .castle-side-image-one {
-    max-height: 600px;
+    max-height: 700px;
+    margin-top: 150px;
+}
+
+.castle-review-cards {
+    max-width: 18rem;
+}
+
+.castle-review-middle-card {
+    min-height: 17rem;
 }
