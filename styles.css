@@ -1,0 +1,35 @@
+html {
+    scroll-behavior: smooth;
+}
+
+@media(max-width: 400px) {
+    img {
+        height: auto;
+        width: 100%;
+    }
+        .castle-form {
+        border-radius: 15px;
+        margin-bottom: 100px;
+        margin-top: 50px;
+    }
+    h3 {
+        display: none;
+    }
+}
+
+@media(min-width: 401px) {
+    .castle-form {
+        border-radius: 15px;
+        margin-bottom: 250px;
+    }
+}
+
+.castle-first-row {
+    z-index: 0;
+    background: url(castlebackground.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-top: 70px;
+}
