@@ -21,6 +21,9 @@ html {
     display: flex;
     justify-content: center;
 }
+.castle-container-footer-area {
+    margin-top: 20px;
+}
 }
 
 @media(min-width: 401px) {
@@ -42,6 +45,9 @@ html {
 .castle-card-one-review {
     display: flex;
     justify-content: flex-end;
+}
+.castle-container-footer-area {
+    margin-top: 350px;
 }
 
 }
@@ -71,3 +77,4 @@ html {
 .castle-review-middle-card {
     min-height: 17rem;
 }
+
